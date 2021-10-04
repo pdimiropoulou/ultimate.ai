@@ -42,6 +42,7 @@ The data structure of mongo db documents that holds the replies is like the foll
 	{
 		"intent": "Affirmative",
 		"reply": "Great!"
+	}
 	]
 
 Every intent has its own reply.
