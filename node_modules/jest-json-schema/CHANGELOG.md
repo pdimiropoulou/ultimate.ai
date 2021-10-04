@@ -1,0 +1,39 @@
+# [5.0.0](https://github.com/americanexpress/jest-json-schema/compare/v4.0.0...v5.0.0) (2021-01-19)
+
+
+### chore
+
+* **main:** remove the deprecated function matchersWithFormats ([#23](https://github.com/americanexpress/jest-json-schema/issues/23)) ([94f8ce1](https://github.com/americanexpress/jest-json-schema/commit/94f8ce174d0f20e4d66e8bdc520c56eab35b8141))
+
+
+### BREAKING CHANGES
+
+* **main:** matchersWithFormats is no longer available. Use matchersWithOptions instead.
+
+Co-authored-by: Nelly Kiboi <nelly.j.kiboi@aexp.com>
+
+# [4.0.0](https://github.com/americanexpress/jest-json-schema/compare/v3.0.0...v4.0.0) (2021-01-19)
+
+
+* Require Node.js 12 and upgrade jest-matcher-utils to version 26 (#22) ([de9363c](https://github.com/americanexpress/jest-json-schema/commit/de9363c13aad2258cfe104f2413de7cf354b0433)), closes [#22](https://github.com/americanexpress/jest-json-schema/issues/22)
+
+
+### BREAKING CHANGES
+
+* drops support for Node.js < 12.13 and non-lts versions
+
+* chore(deps): update jest-matcher-utils to v26 and chalk to v4
+
+Co-authored-by: Nelly Kiboi <nelly.j.kiboi@aexp.com>
+
+# [3.0.0](https://github.com/americanexpress/jest-json-schema/compare/v2.1.0...v3.0.0) (2021-01-08)
+
+
+### chore
+
+* **travis:** remove node 6 from travis config ([0422dfe](https://github.com/americanexpress/jest-json-schema/commit/0422dfe7e0f587d2dfc365667f7a384127d8b75f))
+
+
+### BREAKING CHANGES
+
+* **travis:** drop support for node 6
